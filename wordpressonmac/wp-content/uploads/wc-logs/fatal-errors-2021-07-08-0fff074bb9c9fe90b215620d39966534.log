@@ -1,0 +1,72 @@
+2021-07-08T10:17:02+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php:2029
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3428): Jetpack::load_modules()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3321): Jetpack::plugin_initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-admin/includes/plugin.php(701): do_action('activate_jetpac...', false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Plugins.php(403): activate_plugin('jetpack/jetpack...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(1139): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(750): WP->parse_request('')
+#16 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/functions.php(1291): WP->main('')
+#17 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-blog-header.php(16): wp()
+#18 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/index.php(17): require('/Applications/X...')
+#19 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php on line 2029
+
+2021-07-08T10:17:10+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php:2029
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3428): Jetpack::load_modules()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3321): Jetpack::plugin_initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-admin/includes/plugin.php(701): do_action('activate_jetpac...', false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Plugins.php(403): activate_plugin('jetpack/jetpack...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(1139): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(750): WP->parse_request('')
+#16 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/functions.php(1291): WP->main('')
+#17 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-blog-header.php(16): wp()
+#18 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/index.php(17): require('/Applications/X...')
+#19 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php on line 2029
+
+2021-07-08T10:17:26+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Connection\Manager::is_site_connection() in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php:2029
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3428): Jetpack::load_modules()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php(3321): Jetpack::plugin_initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): Jetpack::plugin_activation(false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-admin/includes/plugin.php(701): do_action('activate_jetpac...', false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Plugins.php(403): activate_plugin('jetpack/jetpack...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(1139): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/class-wp.php(750): WP->parse_request('')
+#16 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-includes/functions.php(1291): WP->main('')
+#17 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-blog-header.php(16): wp()
+#18 /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/index.php(17): require('/Applications/X...')
+#19 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpressonmac/wp-content/plugins/jetpack/class.jetpack.php on line 2029
+
